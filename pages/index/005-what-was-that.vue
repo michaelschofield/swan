@@ -36,19 +36,19 @@ useHead({
   charset: 'utf-8',
   meta: [
     {
-      name: 'og:title',
+      property: 'og:title',
       content: 'Panel Five :: What was that? - Swán Comic'
     },
     {
-      name: 'og:type',
+      property: 'og:type',
       content: 'website',
     },
     {
-      name: 'og:url',
+      property: 'og:url',
       content: 'https://swancomic.com/005-what-was-that',
     },
     {
-      name: 'og-image',
+      property: 'og-image',
       content: 'https://ucarecdn.com/e085ff7c-fb75-40c3-9650-b198b017a7ea/-/preview/-/quality/smart/-/format/auto/i.jpg',
     },
   ],

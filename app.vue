@@ -88,19 +88,19 @@ useHead({
   charset: 'utf-8',
   meta: [
     {
-      name: 'og:title',
+      property: 'og:title',
       content: 'Swán :: Web Comic of a Kid Alone with the Plague'
     },
     {
-      name: 'og:type',
+      property: 'og:type',
       content: 'website',
     },
     {
-      name: 'og:url',
+      property: 'og:url',
       content: 'https://swancomic.com',
     },
     {
-      name: 'og-image',
+      property: 'og-image',
       content: 'https://ucarecdn.com/804a5d7e-1bf5-4ad8-a038-3c88b14f5479/-/preview/-/quality/smart/-/format/auto/i.jpg',
     },
   ],
