@@ -100,7 +100,7 @@ useHead({
       content: 'https://swancomic.com',
     },
     {
-      property: 'og-image',
+      property: 'og:image',
       content: 'https://ucarecdn.com/804a5d7e-1bf5-4ad8-a038-3c88b14f5479/-/preview/-/quality/smart/-/format/auto/i.jpg',
     },
   ],

@@ -49,7 +49,7 @@ useHead({
       content: 'https://swancomic.com/003-the-gates',
     },
     {
-      property: 'og-image',
+      property: 'og:image',
       content: 'https://ucarecdn.com/584a2672-70b1-4fd0-9387-4fb8f7275ffe/-/preview/-/quality/smart/-/format/auto/i.jpg',
     },
   ],

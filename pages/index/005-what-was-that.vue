@@ -48,7 +48,7 @@ useHead({
       content: 'https://swancomic.com/005-what-was-that',
     },
     {
-      property: 'og-image',
+      property: 'og:image',
       content: 'https://ucarecdn.com/e085ff7c-fb75-40c3-9650-b198b017a7ea/-/preview/-/quality/smart/-/format/auto/i.jpg',
     },
   ],

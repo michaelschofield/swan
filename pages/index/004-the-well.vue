@@ -49,7 +49,7 @@ useHead({
       content: 'https://swancomic.com/004-the-well',
     },
     {
-      property: 'og-image',
+      property: 'og:image',
       content: 'https://ucarecdn.com/b4476975-371c-4c78-8852-7d1f4f0d4615/-/preview/-/quality/smart/-/format/auto/i.jpg',
     },
   ],

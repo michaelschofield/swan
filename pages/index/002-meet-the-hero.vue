@@ -47,7 +47,7 @@ useHead({
       content: 'https://swancomic.com/002-meet-the-hero',
     },
     {
-      property: 'og-image',
+      property: 'og:image',
       content: 'https://ucarecdn.com/549a26e0-0156-4c0c-8707-75bf25589317/-/preview/-/quality/smart/-/format/auto/i.jpg',
     },
   ],
