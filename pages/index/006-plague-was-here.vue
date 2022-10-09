@@ -3,7 +3,7 @@
     <div class="relative order-last max-w-md">
       <h3 class="absolute font-['Architects_Daughter'] lowercase text-xl top-3 left-3">Panel #6</h3>
 
-      <img alt="The face of a young boy. Brown musty hair. Weary."
+      <img alt="The dessicated face of a plague victim. A rat sitting on their chest."
            src="https://ucarecdn.com/f7954c65-3489-47f4-9f8a-01acf21bdf4f/-/preview/-/quality/smart/-/format/auto/">
     </div>
 
@@ -29,3 +29,32 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { useHead, useState } from '#app';
+const isScriptOpen = useState('isScriptOpen', () => true);
+
+useHead({
+  title: 'Panel Six :: Plague was here - Swán Comic',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [
+    {
+      name: 'og:title',
+      content: 'Panel Six :: Plague was here - Swán Comic'
+    },
+    {
+      name: 'og:type',
+      content: 'website',
+    },
+    {
+      name: 'og:url',
+      content: 'https://swancomic.com/006-plague-was-here',
+    },
+    {
+      name: 'og-image',
+      content: 'https://ucarecdn.com/f7954c65-3489-47f4-9f8a-01acf21bdf4f/-/preview/-/quality/smart/-/format/auto/i.jpg',
+    },
+  ],
+});
+</script>

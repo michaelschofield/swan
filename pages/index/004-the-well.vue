@@ -3,7 +3,7 @@
     <div class="relative max-w-7xl">
       <h3 class="absolute font-['Architects_Daughter'] lowercase text-xl top-3 left-3 text-white">Panel #4</h3>
 
-      <img alt="The face of a young boy. Brown musty hair. Weary."
+      <img alt="Aerial view of an abandoned medieval square and the boy standing by the well."
            src="https://ucarecdn.com/b4476975-371c-4c78-8852-7d1f4f0d4615/-/preview/-/quality/smart/-/format/auto/">
     </div>
 
@@ -26,3 +26,32 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { useHead, useState } from '#app';
+const isScriptOpen = useState('isScriptOpen', () => true);
+
+useHead({
+  title: 'Panel Four :: The well - Swán Comic',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [
+    {
+      name: 'og:title',
+      content: 'Panel Four :: The Well - Swán Comic'
+    },
+    {
+      name: 'og:type',
+      content: 'website',
+    },
+    {
+      name: 'og:url',
+      content: 'https://swancomic.com/004-the-well',
+    },
+    {
+      name: 'og-image',
+      content: 'https://ucarecdn.com/b4476975-371c-4c78-8852-7d1f4f0d4615/-/preview/-/quality/smart/-/format/auto/i.jpg',
+    },
+  ],
+});
+</script>

@@ -3,7 +3,7 @@
     <div class="relative max-w-7xl">
       <h3 class="absolute font-['Architects_Daughter'] lowercase text-xl top-3 right-3 text-white">Panel #3</h3>
 
-      <img alt="The face of a young boy. Brown musty hair. Weary."
+      <img alt="A boy entering an abandoned village"
            src="https://ucarecdn.com/584a2672-70b1-4fd0-9387-4fb8f7275ffe/-/preview/-/quality/smart/-/format/auto/">
     </div>
 
@@ -26,3 +26,32 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { useHead, useState } from '#app';
+const isScriptOpen = useState('isScriptOpen', () => true);
+
+useHead({
+  title: 'Panel Three :: The Gates - Swán Comic',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [
+    {
+      name: 'og:title',
+      content: 'Panel Three :: The Gates - Swán Comic'
+    },
+    {
+      name: 'og:type',
+      content: 'website',
+    },
+    {
+      name: 'og:url',
+      content: 'https://swancomic.com/003-the-gates',
+    },
+    {
+      name: 'og-image',
+      content: 'https://ucarecdn.com/584a2672-70b1-4fd0-9387-4fb8f7275ffe/-/preview/-/quality/smart/-/format/auto/i.jpg',
+    },
+  ],
+});
+</script>

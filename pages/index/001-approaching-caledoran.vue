@@ -48,8 +48,21 @@ useHead({
   charset: 'utf-8',
   meta: [
     {
-      name: 'A boy in rags approaches a distant city. Caption reads: Yours is your father\'s honor, I hear, back home.'
-    }
+      name: 'og:title',
+      content: 'Panel One :: Panel One :: Approaching Caledoran - Swán Comic'
+    },
+    {
+      name: 'og:type',
+      content: 'website',
+    },
+    {
+      name: 'og:url',
+      content: 'https://swancomic.com/001-aproaching-caledoran',
+    },
+    {
+      name: 'og-image',
+      content: 'https://ucarecdn.com/804a5d7e-1bf5-4ad8-a038-3c88b14f5479/-/preview/-/quality/smart/-/format/auto/i.jpg',
+    },
   ],
 });
 </script>

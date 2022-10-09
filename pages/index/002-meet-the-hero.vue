@@ -24,3 +24,32 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { useHead, useState } from '#app';
+const isScriptOpen = useState('isScriptOpen', () => true);
+
+useHead({
+  title: 'Panel Two :: Meet the hero - Swán Comic',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [
+    {
+      name: 'og:title',
+      content: 'Panel Two :: Meet the hero - Swán Comic'
+    },
+    {
+      name: 'og:type',
+      content: 'website',
+    },
+    {
+      name: 'og:url',
+      content: 'https://swancomic.com/002-meet-the-hero',
+    },
+    {
+      name: 'og-image',
+      content: 'https://ucarecdn.com/549a26e0-0156-4c0c-8707-75bf25589317/-/preview/-/quality/smart/-/format/auto/i.jpg',
+    },
+  ],
+});
+</script>

@@ -3,7 +3,7 @@
     <div class="relative max-w-sm">
       <h3 class="absolute font-['Architects_Daughter'] lowercase text-xl top-3 left-3 text-white">Panel #5</h3>
 
-      <img alt="The face of a young boy. Brown musty hair. Weary."
+      <img alt="The boy walking down an alley. Movement in the foreground catches his attention."
            src="https://ucarecdn.com/e085ff7c-fb75-40c3-9650-b198b017a7ea/-/preview/-/quality/smart/-/format/auto/">
     </div>
 
@@ -25,3 +25,32 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { useHead, useState } from '#app';
+const isScriptOpen = useState('isScriptOpen', () => true);
+
+useHead({
+  title: 'Panel Five :: What was that? - Swán Comic',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [
+    {
+      name: 'og:title',
+      content: 'Panel Five :: What was that? - Swán Comic'
+    },
+    {
+      name: 'og:type',
+      content: 'website',
+    },
+    {
+      name: 'og:url',
+      content: 'https://swancomic.com/005-what-was-that',
+    },
+    {
+      name: 'og-image',
+      content: 'https://ucarecdn.com/e085ff7c-fb75-40c3-9650-b198b017a7ea/-/preview/-/quality/smart/-/format/auto/i.jpg',
+    },
+  ],
+});
+</script>

@@ -83,6 +83,27 @@ const navigation = [
 ];
 
 useHead({
+  title: 'Swán :: Web Comic of a Kid Alone with the Plague',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [
+    {
+      name: 'og:title',
+      content: 'Swán :: Web Comic of a Kid Alone with the Plague'
+    },
+    {
+      name: 'og:type',
+      content: 'website',
+    },
+    {
+      name: 'og:url',
+      content: 'https://swancomic.com',
+    },
+    {
+      name: 'og-image',
+      content: 'https://ucarecdn.com/804a5d7e-1bf5-4ad8-a038-3c88b14f5479/-/preview/-/quality/smart/-/format/auto/i.jpg',
+    },
+  ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     {
