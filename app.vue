@@ -98,8 +98,6 @@ useHead({
 </script>
 
 <script>
-import { first, last } from 'lodash';
-
 export default {
   computed: {
     panelCurrent() {
@@ -115,10 +113,10 @@ export default {
       return this.panels.at(this.panelBackIndex);
     },
     panelFirst() {
-      return first(this.panels);
+      return useFirst(this.panels);
     },
     panelLast() {
-      return last(this.panels);
+      return useLast(this.panels);
     },
     panelLastIndex() {
       return this.panels.indexOf(this.panelLast);

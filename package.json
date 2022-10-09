@@ -5,12 +5,15 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "cross-env PORT=8080 HOST=0.0.0.0 node .output/server/index.mjs"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.3",
+    "cross-env": "^7.0.3",
     "lodash": "^4.17.21",
-    "nuxt": "3.0.0-rc.11"
+    "nuxt": "3.0.0-rc.11",
+    "nuxt-lodash": "^2.3.0"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.2",

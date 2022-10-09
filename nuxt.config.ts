@@ -24,7 +24,8 @@ export default defineNuxtConfig({
         },
     },
     modules: [
-        '@nuxtjs/tailwindcss'
+        '@nuxtjs/tailwindcss',
+        'nuxt-lodash'
     ],
     tailwindcss: {
         configPath: '~tailwind.config.js',
